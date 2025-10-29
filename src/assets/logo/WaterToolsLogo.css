@@ -1,0 +1,45 @@
+/* Custom animations for logo - These can't be converted to Tailwind */
+@keyframes fadeInLogo {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes rotateWater {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes waterFlow {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+/* Custom classes for complex animations */
+.logo-svg-container {
+  filter: drop-shadow(0 10px 30px rgba(30, 144, 255, 0.3));
+  animation: fadeInLogo 1s ease-out;
+}
+
+.logo-svg-container:hover {
+  animation: waterFlow 15s ease-in-out infinite, fadeInLogo 1s ease-out;
+}
+
+.water-circle {
+  animation: rotateWater 30s linear infinite;
+}
