@@ -7,6 +7,7 @@ class ApiClient {
     this.timeout = API_CONFIG.TIMEOUT;
     this.retryAttempts = API_CONFIG.RETRY_ATTEMPTS;
   }
+  console.log('ApiClient constructor called');
 
   // Generic request method with retry logic
   async request(endpoint, options = {}) {
