@@ -1,6 +1,6 @@
 // API Configuration
 export const API_CONFIG = {
-  BASE_URL: import.meta.env.VITE_API_URL || 'https://water-tool-frontend-2tyw.vercel.app/',
+  BASE_URL: import.meta.env.VITE_API_URL || 'https://water-tool-frontend-2tyw.vercel.app',
   ENDPOINTS: {
     REGISTER: '/api/auth/register',
     LOGIN: '/api/auth/login',
