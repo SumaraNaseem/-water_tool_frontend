@@ -11,8 +11,8 @@ export default function ForgotPassword({ onReset }) {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-100 to-blue-50 px-4 pt-6">
-      <div className="flex items-center justify-center ">
+    <div className="min-h-screen bg-gradient-to-b from-blue-100 to-blue-50 px-4 flex items-center justify-center">
+      <div className="flex items-center justify-center">
         <div className="w-full max-w-2xl">
           <div className="bg-white rounded-2xl shadow-2xl overflow-hidden relative">
             {/* Security Badge */}
@@ -31,12 +31,12 @@ export default function ForgotPassword({ onReset }) {
               <div className="">
                 <WaterToolsLogo />
               </div>
-              <p className="text-sm text-center text-blue-800 mb-6">
+              {/* <p className="text-sm text-center text-blue-800 mb-6">
                 Återställ ditt lösenord för vatten & avlopp hantering
-              </p>
+              </p> */}
 
               {/* System Status Bar */}
-              <div className="w-full max-w-lg mx-auto mb-8">
+              {/* <div className="w-full max-w-lg mx-auto mb-8">
                 <div className="bg-blue-50 text-blue-400 rounded-lg px-4 py-3 flex items-center">
                   <i className="fas fa-server mr-3"></i>
                   <span className="text-sm">
@@ -44,7 +44,7 @@ export default function ForgotPassword({ onReset }) {
                     säkerhetsövervakning
                   </span>
                 </div>
-              </div>
+              </div> */}
 
               {/* Forgot Password Form */}
               <div className="w-full max-w-md mx-auto px-8">
@@ -133,7 +133,7 @@ export default function ForgotPassword({ onReset }) {
               </div>
 
               {/* Security Features Section */}
-              <div className="w-full max-w-2xl mx-auto mt-8 px-8">
+              {/* <div className="w-full max-w-2xl mx-auto mt-8 px-8">
                 <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
                   <h3 className="flex items-center text-blue-800 font-semibold text-lg mb-4">
                     <svg
@@ -252,10 +252,10 @@ export default function ForgotPassword({ onReset }) {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
              {/* Footer Disclaimer */}
-             <div className="w-full max-w-2xl mx-auto mt-6 px-8 pb-8">
+             {/* <div className="w-full max-w-2xl mx-auto mt-6 px-8 pb-8">
                 <p className="text-[18px] font-[600] text-[#4169e0] text-center leading-relaxed">
                   Alla inloggningar övervakas och loggas för säkerhetsändamål.
                   <p className="text-[14px] font-[500] text-[#4169e0] text-center leading-relaxed">
@@ -268,7 +268,7 @@ export default function ForgotPassword({ onReset }) {
                     58 användare.
                   </p>
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

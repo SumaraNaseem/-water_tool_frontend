@@ -62,13 +62,13 @@ export default function Register() {
   };
 
   return (
-    <div className="bg-gradient-to-b from-blue-300 to-blue-100 px-4 pt-6">
+    <div className="bg-gradient-to-b h-screen from-blue-300 to-blue-100 px-4 pt-6">
       {/* Alert Container */}
       {/* <div id="alertContainer" className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50"></div> */}
 
       <div className="flex items-center justify-center ">
         <div className="w-full max-w-2xl">
-          <div className="bg-white rounded-2xl shadow-2xl overflow-hidden relative">
+          <div className="bg-white rounded-2xl h-full pb-7 shadow-2xl overflow-hidden relative">
             {/* Security Badge */}
             <div className="absolute top-6   right-4 md:right-6 bg-gradient-to-r from-blue-400/15 to-blue-500/10 border border-blue-400/30 rounded-full px-2 md:px-4 py-1 md:py-2 flex items-center gap-1 md:gap-2 text-blue-600 text-[10px] md:text-[12px] lg:text-[14px] font-semibold shadow-lg">
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -85,12 +85,12 @@ export default function Register() {
               <div className=" ">
                 <WaterToolsLogo />
               </div>
-              <p className="text-sm text-center text-blue-800 mb-6">
+              {/* <p className="text-sm text-center text-blue-800 mb-6">
                 Skapa nytt konto för vatten & avlopp hantering
-              </p>
+              </p> */}
 
               {/* System Status Bar */}
-              <div className="w-full max-w-lg mx-auto mb-8">
+              {/* <div className="w-full max-w-lg mx-auto mb-8">
                 <div className="bg-blue-50 text-blue-400 rounded-lg px-4 py-3 flex items-center">
                   <i className="fas fa-server mr-3"></i>
                   <span className="text-sm">
@@ -98,7 +98,7 @@ export default function Register() {
                     säkerhetsövervakning
                   </span>
                 </div>
-              </div>
+              </div> */}
 
               {/* Registration Form */}
               <div className="w-full max-w-md mx-auto px-8">
@@ -258,7 +258,7 @@ export default function Register() {
               </div>
 
               {/* Security Features Section */}
-              <div className="w-full max-w-2xl mx-auto mt-8 px-8">
+              {/* <div className="w-full max-w-2xl mx-auto mt-8 px-8">
                 <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
                   <h3 className="flex items-center text-blue-800 font-semibold text-lg mb-4">
                     <svg
@@ -377,10 +377,10 @@ export default function Register() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
              {/* Footer Disclaimer */}
-             <div className="w-full max-w-2xl mx-auto mt-6 px-8 pb-8">
+             {/* <div className="w-full max-w-2xl mx-auto mt-6 px-8 pb-8">
                 <p className="text-[18px] font-[600] text-[#4169e0] text-center leading-relaxed">
                   Alla inloggningar övervakas och loggas för säkerhetsändamål.
                   <p className="text-[14px] font-[500] text-[#4169e0] text-center leading-relaxed">
@@ -393,7 +393,7 @@ export default function Register() {
                     58 användare.
                   </p>
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
